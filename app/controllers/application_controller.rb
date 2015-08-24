@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   layout :set_layout
 
-  rescue_from exception, with: :rescure500
+  rescue_from Exception, with: :rescure500
 
   private
   def set_layout
