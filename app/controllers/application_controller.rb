@@ -5,6 +5,13 @@ class ApplicationController < ActionController::Base
 
   layout :set_layout
 
+  class Forbidden < ActionController::ActionControllerError; end
+  class IpAddressRejected < ActionController::ActionControllerError; end
+
+  rescue_from Exception, with: :rescure500
+  rescue_from Forbidden, with: :rescure403
+  rescue_from IpAddressRejected, with: :rescure403
+
   private
   def set_layout
     if params[:controller].match(%r{\A(staff|admin|customer)/})
@@ -12,6 +19,16 @@ class ApplicationController < ActionController::Base
     else
       'customer'
     end
+  end
+
+  def rescure403(e)
+    @exception = e
+    render 'errors/forbidden', status: 403
+  end
+
+  def rescure500(e)
+    @exception = e
+    render 'errors/internal_server_error', status: 500
   end
 
 end
