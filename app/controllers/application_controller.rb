@@ -12,6 +12,7 @@ class ApplicationController < ActionController::Base
   rescue_from Forbidden, with: :rescure403
   rescue_from IpAddressRejected, with: :rescure403
   rescue_from ActionController::RoutingError, with: :rescure404
+  rescue_from ActiveRecord::RecordNotFound, with: :rescure404
 
   private
   def set_layout
