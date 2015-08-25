@@ -63,6 +63,9 @@ Rails.application.routes.draw do
 
   namespace :admin do
     root 'top#index'
+    get 'login' => 'sessions#new', as: :login
+    post 'session' => 'sessions#create', as: :session
+    delete 'session' => 'sesssion#destroy'
   end
 
   namespace :customer do
