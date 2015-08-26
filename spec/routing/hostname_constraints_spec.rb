@@ -16,4 +16,27 @@ describe 'ルーティング' do
       action: 'new'
     )
   end
+
+  example '顧客マイページ' do
+    expect(get: 'http://example.com/mypage').to route_to(
+      host: 'example.com',
+      controller: 'customer/top',
+      action: 'index'
+    )
+  end
+
+  example 'ホスト名が対象外ならerrors/not_foundへ' do
+    expect(get: 'http://foo.example.com').to route_to(
+      controller: 'errors',
+      action: 'routing_error'
+    )
+  end
+
+  example '存在しないパスならerrors/not_foundへ' do
+    expect(get: 'http://baukis.example.com/xyz').to route_to(
+      controller: 'errors',
+      action: 'routing_error',
+      anything: 'xyz'
+    )
+  end
 end
