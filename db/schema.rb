@@ -17,8 +17,6 @@ ActiveRecord::Schema.define(version: 20150825091838) do
     t.string   "email",                           null: false
     t.string   "email_for_index",                 null: false
     t.string   "hashed_password"
-    t.date     "start_date",                      null: false
-    t.date     "end_date"
     t.boolean  "suspended",       default: false, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
