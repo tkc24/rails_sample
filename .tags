@@ -1,5 +1,3 @@
-Admin	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^class Admin::StaffMembersController < Admin::Base$/;"	class	line:1
-index	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def index$/;"	method	line:2	class:Admin
 div.table-wrapper	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/table.css.scss	/^div.table-wrapper{$/;"	function	line:4
 div.links	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/table.css.scss	/^  div.links{$/;"	function	line:8
 table	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/table.css.scss	/^  table{$/;"	function	line:13
@@ -26,3 +24,20 @@ a.logo-mark	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/staff
 a	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/staff/layout.css.scss	/^  a {$/;"	function	line:26
 footer	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/staff/layout.css.scss	/^footer{$/;"	function	line:31
 p	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/staff/layout.css.scss	/^  p {$/;"	function	line:37
+Admin	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^class Admin::StaffMembersController < Admin::Base$/;"	class	line:1
+index	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def index$/;"	method	line:2	class:Admin
+show	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def show$/;"	method	line:6	class:Admin
+new	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def new$/;"	method	line:11	class:Admin
+div#wrapper	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^div#wrapper{$/;"	function	line:4
+div#container	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^  div#container{$/;"	function	line:5
+div#generic-form	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^    div#generic-form{$/;"	function	line:6
+form	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^      form{$/;"	function	line:14
+div	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^        div{$/;"	function	line:15
+label	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^          label{$/;"	function	line:17
+label.required:after	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^          label.required:after{$/;"	function	line:21
+input[type='checkbox']+label	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^          input[type='checkbox']+label{$/;"	function	line:26
+input[type='radio']+label	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^          input[type='radio']+label{$/;"	function	line:29
+div.notes	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^        div.notes{$/;"	function	line:33
+span.mark	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^          span.mark{$/;"	function	line:36
+div.buttons	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^        div.buttons{$/;"	function	line:40
+input[type='submit']	/Users/takeshi/Documents/myworks/baukis/app/assets/stylesheets/admin/form.css.scss	/^          input[type='submit']{$/;"	function	line:42
