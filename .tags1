@@ -4,12 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-Admin	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^class Admin::StaffMembersController < Admin::Base$/;"	class	line:1
-index	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def index$/;"	method	line:2	class:Admin
-show	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def show$/;"	method	line:6	class:Admin
-new	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def new$/;"	method	line:11	class:Admin
-edit	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def edit$/;"	method	line:15	class:Admin
-create	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def create$/;"	method	line:19	class:Admin
-update	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def update$/;"	method	line:29	class:Admin
-destroy	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def destroy$/;"	method	line:40	class:Admin
-staff_member_params	/Users/takeshi/Documents/myworks/baukis/app/controllers/admin/staff_members_controller.rb	/^  def staff_member_params$/;"	method	line:48	class:Admin
